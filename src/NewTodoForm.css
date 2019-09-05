@@ -1,6 +1,25 @@
 .NewTodoForm {
-  display: flex;
-  flex-wrap: nowrap;
-  justify-content: center;
-  padding: 2em;
+	display: flex;
+	flex-wrap: nowrap;
+	justify-content: center;
+	padding: 2em;
+	background-color: rgba(112, 18, 235, 0.507);
+	margin: 20px;
+	border-radius: 20px;
+}
+
+.NewTodoForm input {
+	background-color: #7e19707a;
+	border-width: 0px;
+	height: 40px;
+	font-size: 20px;
+	color: #bebebe;
+}
+
+.NewTodoForm button {
+	background: linear-gradient(#fd44449d, #486fee9f);
+	border-width: 0px;
+	color: white;
+	font-weight: bolder;
+	font-size: 15px;
 }

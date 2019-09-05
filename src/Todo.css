@@ -1,5 +1,30 @@
 .Todo {
-  display: flex;
-  flex-wrap: nowrap;
-  padding: 20px;
+	display: flex;
+	flex-wrap: nowrap;
+	flex-direction: row;
+	justify-content: space-evenly;
+	margin: 5px;
+	padding: 10px;
+	color: #c2c0c0;
+	background-color: #951ead;
+}
+
+.Todo input {
+	background-color: #adada9;
+}
+
+.Todo span {
+	background-color: #a5a5a571;
+	width: 70%;
+	font-size: 20px;
+}
+
+.Todo button {
+	border-radius: 10px;
+	border-width: 0px;
+}
+
+.Todo-button-container {
+	display: flex;
+	justify-content: space-evenly;
 }
